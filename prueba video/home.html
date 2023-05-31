@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Video introducción</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <div class="video-container">
+        <video src="videoFront.mp4" autoplay muted loop></video>
+        <script>
+          function mute() {
+            if (document.getElementById("tele").muted == false) {
+              document.getElementById("tele").muted = true;
+              document.getElementById("boton2").src = "mute.png";
+            } else {
+              document.getElementById("tele").muted = false;
+              document.getElementById("boton2").src = "volume.png";
+            }
+          }
+        </script>
+        <div class="pantallas1">
+          <a href="" class="pantallaS"></a>
+        </div>
+        <div class="pantallas1">
+          <a href="" class="pantalla1"></a>
+          <a href="" class="pantalla2"></a>
+        </div>
+        <div class="pantallas3">
+          <a href="" class="pantalla3"></a>
+        </div>
+        <div class="pantallas1">
+          <a href="" class="pantalla4"></a>
+          <a href="" class="pantalla5"></a>
+        </div>
+        <div class="pantallas1">
+          <a href="" class="contact"></a>
+        </div>
+      </div>
+    </section>
+    <section class="showcase2">
+      <p>Rotate the device to watch the page</p>
+    </section>
+  </body>
+</html>

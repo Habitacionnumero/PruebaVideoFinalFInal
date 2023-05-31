@@ -1,0 +1,380 @@
+.pantallas1{
+    float: left;
+    display: flex;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: black;*/
+}
+
+
+body{
+
+    line-height: 1.5;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.pantallas2{
+    float: left;
+    display: flex;
+}
+.pantallas3{
+    float: left;
+    display: flex;
+}
+.pantallaS{
+    
+    width: 1800px;
+    height: 140px;
+    margin-left: 50px;
+}
+
+.pantalla1{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 300px;
+    width: 630px;
+    margin-left: 70px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.pantalla2{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 300px;
+    width: 610px;
+    margin-left: 525px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.pantalla3{
+    border-radius: 10px;
+  
+    position: relative;
+    height: 690px;
+    width: 360px;
+    margin-left: 780px;
+    margin-top: -290px;
+    flex-direction: column;
+}
+.pantalla4{
+    border-radius: 10px;
+    
+    position: relative;
+    height: 310px;
+    width: 640px;
+    margin-left: 60px;
+    margin-top: -320px;
+    flex-direction: column;
+}
+.pantalla5{
+    border-radius: 10px;
+
+    position: relative;
+    height: 310px;
+    width: 630px;
+    margin-left: 525px;
+    margin-top: -320px;
+    flex-direction: column;
+}
+
+.contact{
+    border-radius: 10px;
+    
+    position: relative;
+    height: 50px;
+    width: 220px;
+    margin-left: 1640px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.showcase{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 0px;
+    color: white;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  
+}
+
+.video-container video{
+    z-index: -1;
+    width: 100%;
+ 
+    min-height: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    margin-bottom: 0px;
+    margin-top: 1000px;
+    margin-left: 100px;
+    margin-right: 0px;
+    z-index: 0;
+  
+}
+
+@media screen and (min-width: 950px) {
+    .btn{
+        margin-left: 1600px;
+        margin-top: 1000px;
+        margin-bottom: 0px;
+        display:flex;
+        padding: 10px 30px;
+        font-size: 30px;
+        color: #1ce23a;
+        font-family: Nokia;
+        
+     }
+    
+     .btnM{
+        
+      width: 50px;
+      margin-top: -60px;
+      margin-bottom: 70px;
+      margin-left: 85px;
+      z-index: 0;
+}
+
+.showcase2{
+    display: none;
+   }
+
+   
+
+}
+
+@media screen and (min-width: 600px) and  (max-width: 940px){
+   .showcase{
+    display: flex;
+   }
+   .showcase2{
+    display: none;
+   }
+
+   body{
+    background-color: black;
+   }
+   .btn{
+    width: 100%;
+    margin-top: 325px;
+    margin-bottom: 0px;
+    margin-left: 600px;
+    display:flex;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: #1ce23a;
+    font-family: Nokia;
+    
+ }
+
+ .btnM{
+    
+  width: 50px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  margin-left: 110px;
+  z-index: 0;
+
+  
+ }
+
+ .video-container video{
+   width: 80%;
+   height: 50%;
+  
+}
+
+.pantallaS{
+    
+    width: 635px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+.pantalla1{
+    border-radius: 10px;
+  
+    position: relative;
+    height: 110px;
+    width: 230px;
+    margin-left: 100px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.pantalla2{
+    border-radius: 10px;
+ 
+    position: relative;
+    height: 110px;
+    width: 230px;
+    margin-left: 180px;
+    margin-top:15px;
+    flex-direction: column;
+}
+.pantalla3{
+    border-radius: 10px;
+    
+    position: relative;
+    height: 250px;
+    width: 125px;
+    margin-left: 360px;
+    margin-top: -110px;
+    flex-direction: column;
+}
+.pantalla4{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 110px;
+    width: 230px;
+    margin-left: 95px;
+    margin-top: -110px;
+    flex-direction: column;
+}
+.pantalla5{
+    border-radius: 10px;
+    
+    position: relative;
+    height: 110px;
+    width: 230px;
+    margin-left: 190px;
+    margin-top: -110px;
+    flex-direction: column;
+}
+
+.contact{
+    border-radius: 10px;
+    
+    position: relative;
+    height: 25px;
+    width: 100px;
+    margin-left: 655px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 600px) {
+
+    body{
+        background-color: black;
+    }
+
+
+    .showcase{
+     display: none;
+    }
+    .showcase2{
+     display: flex;
+    }
+
+    p{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 375px;
+        margin-left: 10px;
+        position: center;
+        color: #1ce23a;
+        font-family: Nokia;
+    }
+
+ }
+ 
+ @media screen  and (max-width: 1500px) and (min-width: 1000px) {
+
+
+    .btn{
+        width: 100%;
+        margin-top: 900px;
+        margin-bottom: 0px;
+        margin-left: 1250px;
+        display:flex;
+        padding: 10px 30px;
+        font-size: 30px;
+        color: #1ce23a;
+        font-family: Nokia;
+        
+     }
+    
+     .btnM{
+        
+      width: 50px;
+      margin-top: -60px;
+      margin-bottom: 70px;
+      margin-left: 30px;
+      z-index: 0;
+    
+      
+     }
+
+ }
+ @media screen  and  (min-width: 375px) and  (max-width: 700px) and (max-height: 668px) {
+
+    .btn{
+        width: 100%;
+        margin-top: 325px;
+        margin-bottom: 0px;
+        margin-left: 425px;
+        display:flex;
+        padding: 10px 30px;
+        font-size: 30px;
+        color: #1ce23a;
+        font-family: Nokia;
+        
+     }
+    
+     .btnM{
+        
+      width: 50px;
+      margin-top: 10px;
+      margin-bottom: 70px;
+      margin-left: 30px;
+      z-index: 0;
+    
+      
+     }
+
+     p{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 290px;
+        margin-left: 10px;
+        position: center;
+        color: #1ce23a;
+        font-family: Nokia;
+    }
+
+    .video-container video{
+        width: 100%;
+        height: 100%;
+     }
+    
+
+ }
