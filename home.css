@@ -9,6 +9,17 @@
     /*background-color: black;*/
 }
 
+@font-face {
+    font-family: Nokia;
+    src: url('nokiafc22.ttf');
+}
+
+
+.phone{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 25%; 
+   }
 
 body{
 
@@ -100,6 +111,12 @@ a{
     flex-direction: column;
 }
 
+.phone{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 25%; 
+   }
+
 .showcase{
     position: relative;
     height: 100vh;
@@ -153,6 +170,10 @@ a{
         font-family: Nokia;
         
      }
+
+     .phone{
+        display: none;
+       }
     
      .btnM{
         
@@ -174,6 +195,10 @@ a{
 @media screen and (min-width: 600px) and  (max-width: 940px){
    .showcase{
     display: flex;
+   }
+
+   .phone{
+    display: none;
    }
    .showcase2{
     display: none;
@@ -287,6 +312,9 @@ a{
         background-color: black;
     }
 
+    .phone{
+        display: flex;
+       }
 
     .showcase{
      display: none;
@@ -322,6 +350,11 @@ a{
         font-family: Nokia;
         
      }
+
+     
+     .phone{
+        display: none;
+       }
     
      .btnM{
         

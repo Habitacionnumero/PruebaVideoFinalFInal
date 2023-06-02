@@ -77,12 +77,38 @@ a{
 
 }
 
+.btnP{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    z-index: 0;
+  
+    
+}
 
+.btnF{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    z-index: 0;
+  
+    
+}
+
+.phone{
+ margin-left: 150px;
+ margin-top: 50px;
+ width: 25%; 
+}
 
 @media screen and (min-width: 950px) {
     .btn{
         margin-left: 1600px;
-        margin-top: 1000px;
+        margin-top: 925px;
         margin-bottom: 0px;
         display:flex;
         padding: 10px 30px;
@@ -101,11 +127,35 @@ a{
       z-index: 0;
 }
 
+.btnP{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    z-index: 0;
+  
+    
+   }
+
+   .btnF{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    z-index: 0;
+  
+    
+   }
+
 .showcase2{
     display: none;
    }
 
-   
+   .phone{
+    display: none;
+   }
 
 }
 
@@ -117,12 +167,16 @@ a{
     display: none;
    }
 
+   .phone{
+    display: none;
+   }
+
    body{
     background-color: black;
    }
    .btn{
     width: 100%;
-    margin-top: 325px;
+    margin-top: 315px;
     margin-bottom: 0px;
     margin-left: 600px;
     display:flex;
@@ -143,6 +197,30 @@ a{
 
   
  }
+
+ .btnP{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    z-index: 0;
+  
+    
+   }
+
+   .btnF{
+    
+    width: 50px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    z-index: 0;
+  
+    
+   }
+
+ 
 
  .video-container video{
    width: 80%;
@@ -232,11 +310,14 @@ a{
     .showcase2{
      display: flex;
     }
+    .phone{
+        display: flex;
+       }
 
     p{
         font-size: 30px;
         text-align: center;
-        margin-top: 375px;
+        margin-top: 300px;
         margin-left: 10px;
         position: center;
         color: #1ce23a;
@@ -271,6 +352,31 @@ a{
     
       
      }
+     .btnP{
+    
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 60px;
+        z-index: 0;
+      
+        
+       }
+    
+       .btnF{
+        
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        z-index: 0;
+      
+        
+       }
+
+       .phone{
+        display: none;
+       }
 
  }
  @media screen  and  (min-width: 375px) and  (max-width: 700px) and (max-height: 668px) {
@@ -299,6 +405,28 @@ a{
       
      }
 
+     .btnP{
+    
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 60px;
+        z-index: 0;
+      
+        
+       }
+    
+       .btnF{
+        
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        z-index: 0;
+      
+        
+       }
+
      p{
         font-size: 30px;
         text-align: center;
@@ -314,5 +442,37 @@ a{
         height: 100%;
      }
     
+
+ }
+
+ @media screen and (min-height: 1090px) {
+
+
+    .btn{
+        margin-top: 1250px;
+        margin-left: 2250px;
+    }
+
+    .btnP{
+    
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 60px;
+        z-index: 0;
+      
+        
+       }
+    
+       .btnF{
+        
+        width: 50px;
+        margin-top: -55px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        z-index: 0;
+      
+        
+       }
 
  }
