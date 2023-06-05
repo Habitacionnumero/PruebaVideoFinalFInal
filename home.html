@@ -15,10 +15,8 @@
           function mute() {
             if (document.getElementById("tele").muted == false) {
               document.getElementById("tele").muted = true;
-              document.getElementById("boton2").src = "mute.png";
             } else {
               document.getElementById("tele").muted = false;
-              document.getElementById("boton2").src = "volume.png";
             }
           }
         </script>
@@ -37,8 +35,8 @@
           <a href="" class="pantalla5"></a>
         </div>
         <div class="pantallas1">
-          <a href="" class="trailer"></a>
-          <a href="" class="mute"></a>
+          <a href="index.html" class="trailer"></a>
+          <a href="" class="mute" onclick="mute()"></a>
           <a href="" class="contact"></a>
         </div>
       </div>
