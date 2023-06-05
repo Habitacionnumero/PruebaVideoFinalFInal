@@ -43,73 +43,95 @@ a{
     display: flex;
 }
 .pantallaS{
-    
-    width: 1800px;
+   background-color: blue;
+    width: 1600px;
     height: 140px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .pantalla1{
     border-radius: 10px;
-   
+    background-color: blue;
     position: relative;
     height: 300px;
-    width: 630px;
-    margin-left: 70px;
+    width: 550px;
+    margin-left: 170px;
     margin-top: 30px;
     flex-direction: column;
 }
 .pantalla2{
     border-radius: 10px;
-   
+    background-color: blue;
     position: relative;
     height: 300px;
-    width: 610px;
-    margin-left: 525px;
-    margin-top: 30px;
+    width: 550px;
+    margin-left: 460px;
+    margin-top: 50px;
     flex-direction: column;
 }
 .pantalla3{
     border-radius: 10px;
-  
+    background-color: blue;
     position: relative;
-    height: 690px;
-    width: 360px;
-    margin-left: 780px;
-    margin-top: -290px;
+    height: 600px;
+    width: 300px;
+    margin-left: 820px;
+    margin-top: -300px;
     flex-direction: column;
 }
 .pantalla4{
     border-radius: 10px;
-    
+    background-color: blue;
     position: relative;
-    height: 310px;
-    width: 640px;
-    margin-left: 60px;
-    margin-top: -320px;
+    height: 300px;
+    width: 550px;
+    margin-left: 160px;
+    margin-top: -225px;
     flex-direction: column;
 }
 .pantalla5{
     border-radius: 10px;
-
+    background-color: blue;
     position: relative;
-    height: 310px;
-    width: 630px;
-    margin-left: 525px;
-    margin-top: -320px;
+    height: 300px;
+    width: 550px;
+    margin-left: 480px;
+    margin-top: -235px;
     flex-direction: column;
 }
 
 .contact{
     border-radius: 10px;
-    
+    background-color: blue;
     position: relative;
     height: 50px;
-    width: 220px;
-    margin-left: 1640px;
-    margin-top: 80px;
+    width: 260px;
+    margin-left: 900px;
+    margin-top: 50px;
     flex-direction: column;
 }
+.trailer{
+    border-radius: 10px;
+    background-color: blue;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    margin-left:80px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.mute{
+    border-radius: 10px;
+    background-color: blue;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-left: 415px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
 
 .phone{
     margin-left: 150px;
@@ -301,8 +323,28 @@ a{
     position: relative;
     height: 25px;
     width: 100px;
-    margin-left: 655px;
-    margin-top: 30px;
+    margin-left: 325px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.trailer{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left:100px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.mute{
+    border-radius: 10px;
+ 
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left: 125px;
+    margin-top: 10px;
     flex-direction: column;
 }
 }
@@ -367,6 +409,95 @@ a{
       
      }
 
+     .pantallaS{
+        
+        width: 1500px;
+        height: 140px;
+        margin-left: 0px;
+    }
+    
+    .pantalla1{
+        border-radius: 10px;
+        
+        position: relative;
+        height: 300px;
+        width:550px;
+        margin-left: 0px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .pantalla2{
+        border-radius: 10px;
+        
+        position: relative;
+        height: 300px;
+        width: 550px;
+        margin-left: 400px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .pantalla3{
+        border-radius: 10px;
+        
+        position: relative;
+        height: 590px;
+        width: 310px;
+        margin-left: 600px;
+        margin-top: -290px;
+        flex-direction: column;
+    }
+    .pantalla4{
+        border-radius: 10px;
+     
+        position: relative;
+        height: 300px;
+        width: 550px;
+        margin-left: 0px;
+        margin-top: -300px;
+        flex-direction: column;
+    }
+    .pantalla5{
+        border-radius: 10px;
+        
+        position: relative;
+        height: 300px;
+        width: 550px;
+        margin-left: 400px;
+        margin-top: -300px;
+        flex-direction: column;
+    }
+    
+    .contact{
+        border-radius: 10px;
+        
+        position: relative;
+        height: 50px;
+        width: 220px;
+        margin-left: 850px;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .trailer{
+        border-radius: 10px;
+       
+        position: relative;
+        height: 50px;
+        width: 100px;
+        margin-left:-40px;
+        margin-top: 90px;
+        flex-direction: column;
+    }
+    .mute{
+        border-radius: 10px;
+     
+        position: relative;
+        height: 80px;
+        width: 100px;
+        margin-left: 360px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
  }
  @media screen  and  (min-width: 375px) and  (max-width: 700px) and (max-height: 668px) {
 
@@ -410,4 +541,95 @@ a{
      }
     
 
+ }
+
+ @media screen and (min-height: 1090px) {
+    .pantallaS{
+ 
+    width: 2150px;
+    height: 140px;
+    margin-left: 200px;
+}
+
+.pantalla1{
+    border-radius: 10px;
+
+    position: relative;
+    height: 400px;
+    width: 750px;
+    margin-left: 235px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.pantalla2{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 350px;
+    width: 695px;
+    margin-left: 615px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.pantalla3{
+    border-radius: 10px;
+  
+    position: relative;
+    height: 810px;
+    width: 400px;
+    margin-left: 1090px;
+    margin-top: -340px;
+    flex-direction: column;
+}
+.pantalla4{
+    border-radius: 10px;
+
+    position: relative;
+    height: 328px;
+    width: 725px;
+    margin-left: 235px;
+    margin-top: -360px;
+    flex-direction: column;
+}
+.pantalla5{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 380px;
+    width: 750px;
+    margin-left: 630px;
+    margin-top: -385px;
+    flex-direction: column;
+}
+
+.contact{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 50px;
+    width: 260px;
+    margin-left: 1250px;
+    margin-top: 140px;
+    flex-direction: column;
+}
+.trailer{
+    border-radius: 10px;
+   
+    position: relative;
+    height: 50px;
+    width: 185px;
+    margin-left:80px;
+    margin-top: 180px;
+    flex-direction: column;
+}
+.mute{
+    border-radius: 10px;
+ 
+    position: relative;
+    height: 150px;
+    width: 125px;
+    margin-left: 530px;
+    margin-top: 60px;
+    flex-direction: column;
+}
  }
